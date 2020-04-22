@@ -1,0 +1,33 @@
+.left {
+    width: 50%;
+    float: left;
+} 
+     
+.right {
+    width: 40%;
+    float: right;
+}
+
+h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+     
+}
+
+.left > p,
+.right > p {
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(117, 115, 115);
+
+}
+    .left > p > a,
+    .right > p  > a {
+        color: #EA1E63;
+        text-decoration: none;
+    }
